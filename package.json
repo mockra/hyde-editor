@@ -1,8 +1,8 @@
 {
-  "name": "electron-react-boilerplate",
-  "productName": "ElectronReact",
-  "version": "0.10.0",
-  "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
+  "name": "hyde-editor",
+  "productName": "Hyde",
+  "version": "0.1.0",
+  "description": "Electron based Markdown Editor for Jekyll sites.",
   "main": "main.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test BABEL_DISABLE_CACHE=1 mocha --retries 2 --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
@@ -26,8 +26,8 @@
     "cleanup": "mop -v"
   },
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.develar.ElectronReact",
+    "productName": "Hyde",
+    "appId": "org.develar.Hyde",
     "category": "public.app-category.tools",
     "dmg": {
       "contents": [
@@ -71,16 +71,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    "url": "git+https://github.com/mockra/hyde-editor.git"
   },
   "author": {
-    "name": "C. T. Lin",
-    "email": "chentsulin@gmail.com",
-    "url": "https://github.com/chentsulin"
+    "name": "David Ratajczak",
+    "email": "david@mockra.com",
+    "url": "https://github.com/mockra"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    "url": "https://github.com/mockra/hyde-editor/issues"
   },
   "keywords": [
     "electron",
@@ -89,9 +89,12 @@
     "react-router",
     "flux",
     "webpack",
-    "react-hot"
+    "react-hot",
+    "jekyll",
+    "markdown",
+    "editor"
   ],
-  "homepage": "https://github.com/chentsulin/electron-react-boilerplate#readme",
+  "homepage": "https://github.com/mockra/hyde-editor#readme",
   "devDependencies": {
     "asar": "^0.12.3",
     "babel-core": "^6.20.0",
